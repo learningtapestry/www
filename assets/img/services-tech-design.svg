@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="72px" height="82px" viewBox="0 0 72 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>AD46E844-84B0-49B1-9E17-9BE8B1CD5A14</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="3" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.03 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="9" y="9" width="60" height="69" rx="5"></rect>
+        <mask id="mask-3" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="69" fill="white">
+            <use xlink:href="#path-2"></use>
+        </mask>
+        <rect id="path-4" x="0" y="0" width="60" height="69" rx="5"></rect>
+        <mask id="mask-5" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="60" height="69" fill="white">
+            <use xlink:href="#path-4"></use>
+        </mask>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="001a_Mainpage" transform="translate(-965.000000, -780.000000)">
+            <g id="What-can-we-do" transform="translate(0.000000, 585.000000)">
+                <g id="Group-18" transform="translate(430.000000, 187.000000)">
+                    <g id="Cell" transform="translate(400.000000, 6.000000)">
+                        <g id="Icon" filter="url(#filter-1)" transform="translate(135.000000, 2.000000)">
+                            <use id="Rectangle-31" stroke="#DEDFE4" mask="url(#mask-3)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-2"></use>
+                            <rect id="Rectangle-31" fill="#000000" opacity="0.05" x="9" y="9" width="54" height="64" rx="5"></rect>
+                            <use id="Rectangle-31" stroke="#DEDFE4" mask="url(#mask-5)" stroke-width="4" fill="#FFFFFF" xlink:href="#path-4"></use>
+                            <path d="M44.6390873,51.4675144 L43.1809736,50.0094007 C42.5915674,49.4199945 41.6464466,49.4246212 41.0606602,50.0104076 C40.4707897,50.6002781 40.4744229,51.5454907 41.0596533,52.1307211 L43.1829874,54.2540552 C43.7120958,54.7831636 44.5278605,54.8335644 45.1130016,54.4145702 C45.5572216,54.4715796 46.0208401,54.3284023 46.3619112,53.9873312 L51.3157584,49.033484 C51.8994362,48.4498062 51.8994949,47.5 51.3137085,46.9142136 C50.7238381,46.3243431 49.7790924,46.3275094 49.194438,46.9121637 L44.6390873,51.4675144 Z M44.6390873,35.4675144 L43.1809736,34.0094007 C42.5915674,33.4199945 41.6464466,33.4246212 41.0606602,34.0104076 C40.4707897,34.6002781 40.4744229,35.5454907 41.0596533,36.1307211 L43.1829874,38.2540552 C43.7120958,38.7831636 44.5278605,38.8335644 45.1130016,38.4145702 C45.5572216,38.4715796 46.0208401,38.3284023 46.3619112,37.9873312 L51.3157584,33.033484 C51.8994362,32.4498062 51.8994949,31.5 51.3137085,30.9142136 C50.7238381,30.3243431 49.7790924,30.3275094 49.194438,30.9121637 L44.6390873,35.4675144 Z M44.6390873,19.4675144 L43.1809736,18.0094007 C42.5915674,17.4199945 41.6464466,17.4246212 41.0606602,18.0104076 C40.4707897,18.6002781 40.4744229,19.5454907 41.0596533,20.1307211 L43.1829874,22.2540552 C43.7120958,22.7831636 44.5278605,22.8335644 45.1130016,22.4145702 C45.5572216,22.4715796 46.0208401,22.3284023 46.3619112,21.9873312 L51.3157584,17.033484 C51.8994362,16.4498062 51.8994949,15.5 51.3137085,14.9142136 C50.7238381,14.3243431 49.7790924,14.3275094 49.194438,14.9121637 L44.6390873,19.4675144 Z M8,19.5 C8,18.6715729 8.66452163,18 9.50540161,18 L34.4945984,18 C35.3260087,18 36,18.6657972 36,19.5 C36,20.3284271 35.3354784,21 34.4945984,21 L9.50540161,21 C8.67399126,21 8,20.3342028 8,19.5 Z M8,35.5 C8,34.6715729 8.66452163,34 9.50540161,34 L34.4945984,34 C35.3260087,34 36,34.6657972 36,35.5 C36,36.3284271 35.3354784,37 34.4945984,37 L9.50540161,37 C8.67399126,37 8,36.3342028 8,35.5 Z M8,51.5 C8,50.6715729 8.66452163,50 9.50540161,50 L34.4945984,50 C35.3260087,50 36,50.6657972 36,51.5 C36,52.3284271 35.3354784,53 34.4945984,53 L9.50540161,53 C8.67399126,53 8,52.3342028 8,51.5 Z" id="Combined-Shape" fill="#20B1A5"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

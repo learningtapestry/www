@@ -1,0 +1,297 @@
+/*==========  Non-Mobile First Method  ==========*/
+
+@media only screen and (min-width : 992px) {
+
+}
+
+@media only screen and (min-width : 1421px) and (max-width : 1620px) {
+	/* Layout */
+	#page {
+		width: 1400px;
+	}
+
+	.case-studies-right-inner {
+	    padding: 72px 100px 0 62px;
+	}
+
+}
+
+
+@media only screen and (min-width : 1200px) and (max-width : 1420px) {
+	/* Layout */
+	#page {
+		width: 1200px;
+	}
+
+	.case-studies-right-inner {
+	    padding: 72px 80px 0 62px;
+	}
+
+	.case-studies-text {
+		font-size: 34px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) and (max-width : 1199px) {
+
+	/* Layout */
+	#page {
+		width: 990px;
+	}
+
+	.case-studies-right-inner {
+	    padding: 50px;
+	}
+
+	.case-studies-text {
+		font-size: 34px;
+	}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 768px) and (max-width : 991px) {
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+
+	/* Layout */
+	#page {
+		width: 768px;
+	}
+
+	.service-item {
+	    padding: 0 15px;
+	}
+	
+	.section-components {
+		background-size: cover;
+	}
+	
+	.clients-list a {
+		margin: 25px 30px;
+	}
+
+	.case-studies-left {
+		background-position: left -150px top;
+	}
+
+	.case-studies-right-inner {
+	    padding: 50px;
+	}
+
+	.case-studies-text {
+		font-size: 28px;
+	}
+
+	.solutions-content {
+    	padding-left: 200px;
+    }
+
+    .testimonial-logo { 
+		text-align: left;
+		margin-bottom: 35px;
+	}
+
+	.testimonial-logo { 
+		padding-top: 0;
+	}
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+
+
+	/* Layout */
+	#page {
+		width: auto;
+	}
+	
+	.hero-content {
+		max-width: 90%;
+	}
+
+	/* Main navigation */
+	.site-logo.visible-xs {
+		position: absolute;
+		top: 20px;
+		left: 15px;
+		z-index: 22;
+	}
+
+	.main-nav {
+	    background: rgba(0,0,0,0.75);
+	    height: 100%;
+	    left: 0;
+	    position: fixed;
+	    top: 0;
+	    width: 100%;
+	    opacity: 0;
+		visibility: hidden;
+
+	    -moz-transition: opacity 0.15s ease-in-out, visibility 0s 0.15s;
+	    -webkit-transition: opacity 0.15s ease-in-out, visibility 0s 0.15s;
+	    -o-transition: opacity 0.15s ease-in-out, visibility 0s 0.15s;
+	    -ms-transition: opacity 0.15s ease-in-out, visibility 0s 0.15s;
+	    transition: opacity 0.15s ease-in-out, visibility 0s 0.15s;
+	}
+
+	.main-nav.show {
+		opacity: 1;
+		visibility: visible;
+
+		-moz-transition: opacity 0.15s ease-in-out;
+	    -webkit-transition: opacity 0.15s ease-in-out;
+	    -o-transition: opacity 0.15s ease-in-out;
+	    -ms-transition: opacity 0.15s ease-in-out;
+	    transition: opacity 0.15s ease-in-out;
+	}
+
+	.main-nav ul {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		text-align: center;
+
+		transform: translate(-50%, -50%);
+		-moz-transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		-o-transform: translate(-50%, -50%);
+		-ms-transform: translate(-50%, -50%);
+	}
+
+	.main-nav li {
+		display: block;
+		margin: 0;
+		text-align: center;
+	}
+
+	.main-nav li + li {
+		margin: 0;
+	}
+
+	/* Responsive menu buttons */
+	.lines-button {
+	    display: block;
+	}
+	.lines-button.close {
+		position: fixed;
+	}
+	.lines-button.x.close .lines {
+		background-color: #fff !important;
+	}
+	.lines-button.x.close .line-middle {
+	    background: transparent !important;
+	}
+
+	/* Sections */
+	.section-title {
+		font-size: 24px;
+	}
+
+	.section-subtitle,
+	.service-item-content p,
+	.section-components p {
+		font-size: 18px;
+	}
+
+	.section-services .mt-45,
+	.section-services .mt-65 {
+		margin-top: 0;
+	}
+
+	.section-services .col-sm-5 {
+		margin-top: 40px;
+	}
+
+	.clients-list a {
+		margin: 20px 0;
+		width: 100%;
+	}
+
+	.section-case-studies {
+		height: auto;
+	}
+
+	.case-studies-left {
+		display: none;
+	}
+
+	.case-studies-right {
+		width: 100%;
+	}
+	
+	.section-contact,
+	.case-studies-right-inner {
+	    padding: 50px 0;
+	}
+
+	.case-studies-text {
+	    font-size: 24px;
+	}
+
+	.section-contact form {
+		width: 100%;
+		max-width: 278px;
+		margin: 40px auto 0;
+	}
+
+	.section-contact .form-control {
+		margin-bottom: 15px;
+	}
+	
+	.section-contact .btn,
+	.section-contact .form-control:last-of-type {
+    	border-radius: 6px;
+    	margin-left: 0;
+    }
+
+	.solutions-thumb {
+		float: none;
+		padding: 0;
+		margin-bottom: 30px;
+	}
+
+	.solutions-content {
+		padding-left: 0;
+	}
+
+	/* Modal */
+
+	.modal-dialog {
+	    margin: 30px auto;
+	    width: 90%;
+	}
+
+	.modal-content {
+		padding: 30px 15px;
+	}
+
+	.modal-title {
+		font-size: 28px;
+	}
+
+	.modal-text {
+		font-size: 18px;
+		margin-bottom: 25px;
+		padding-bottom: 25px;
+	}
+
+	.modal-content .form-control {
+		font-size: 16px;
+	}
+	.modal-content .form-control::-moz-placeholder {
+	    font-size: 16px;
+	}
+	.modal-content .form-control:-ms-input-placeholder {
+	    font-size: 16px;
+	}
+	.modal-content .form-control::-webkit-input-placeholder {
+	    font-size: 16px;
+	}
+}
