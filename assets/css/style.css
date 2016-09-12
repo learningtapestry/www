@@ -77,6 +77,19 @@ a:hover {
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'FuturaNewBoldRegular', sans-serif;
+    text-transform: uppercase;
+}
+
+object {
+    pointer-events: none;
+}
+
+p {
+    font-size: 20px;
+}
+
+.p-19 {
+    font-size: 19px;
 }
 
 /* Form controls */
@@ -92,6 +105,8 @@ label {
     font-size: 14px;
     text-transform: uppercase;
     padding: 16px 38px;
+    font-family: 'FuturaMedium', sans-serif;
+    letter-spacing: 0.6px;
 }
 
 .btn-green-text {
@@ -129,6 +144,19 @@ label {
     top: 11px;
 }
 
+/* Text fields */
+.form-control::-moz-placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+.form-control:-ms-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+}
+.form-control::-webkit-input-placeholder {
+    color: #fff;
+    font-size: 14px;
+}
 
 /* Margin and padding resets */
 .mt-45 { margin-top: 45px; }
@@ -142,6 +170,7 @@ label {
     background-color: #f5f9fc;
 }
 
+
 /* LAYOUT
 ================================================== */
 html, body {
@@ -150,16 +179,8 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'FuturaNewBook', sans-serif;
-    background-color: #f2f3f5;
-    color: #6f7c82;
-}
-
-#page {
-    width: 1600px;
-    margin: 0 auto;
-    position: relative;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
     background-color: #fff;
+    color: #6f7c82;
 }
 
 
@@ -182,10 +203,6 @@ html, body {
     max-width: 100%;
 }
 
-.site-logo object {
-    pointer-events: none;
-}
-
 /* Navigation */
 .main-nav {
     float: left;
@@ -201,20 +218,26 @@ html, body {
     display: inline-block;
     position: relative;
     line-height: 40px;
+    margin-right: 95px;
 }
 
-.main-nav li + li {
-    margin-left: 95px;
+.main-nav li:last-child {
+    margin-right: 0;
 }
 
 .main-nav li a {
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 6px;
+    font-family: 'FuturaMedium', sans-serif;
+    letter-spacing: 0.7px;
 }
 
-.main-nav li a:hover {
-    text-decoration: underline;
+.main-nav li a:hover,
+.main-nav li.active a {
+    border-bottom: 2px solid #20b1a5;
 }
 
 /* Hamburger animation on Toggle button for the responsive menu */
@@ -232,6 +255,7 @@ html, body {
     background: none;
     border: 0 none;
     opacity: 1;
+    outline: none;
     z-index: 9999;
     display: none;
     transition: all 0.3s ease 0s;
@@ -319,9 +343,8 @@ html, body {
 	height: 585px;
 }
 
-.hero.hero-solutions {
+.hero.hero-pages {
 	background: #2d3e4f;
-	min-height: 443px;
 	padding: 145px 0 45px;
 }
 
@@ -337,7 +360,7 @@ html, body {
     width: 400px;
 }
 
-.hero-solutions .hero-content {
+.hero-pages .hero-content {
 	position: relative;
 	left: auto;
 	top: auto;
@@ -348,11 +371,9 @@ html, body {
     font-size: 32px;
     color: #20b1a5;
     margin: 0;
-    text-transform: uppercase;
 }
 
 .hero-text {
-    font-size: 20px;
     line-height: 1.3;
     color: rgba(255,255,255,0.7);
     margin: 22px 0 35px;
@@ -367,11 +388,11 @@ html, body {
     margin: 0 0 5px;
 }
 
-.section-subtitle {
-    font-size: 20px;
+/* Section: Services */
+.section-services {
+    padding: 90px 0;
 }
 
-/* Section: Services */
 .service-item {
     padding: 0 60px;
 }
@@ -397,19 +418,17 @@ html, body {
 .service-item-content h3 {
     font-size: 16px;
     color: #444e5a;
-    text-transform: uppercase;
     margin: 30px 0 10px;
 }
 
 .service-item-content p {
-    font-size: 19px;
     line-height: 1.4;
     margin: 0;
 }
 
 /* Section: Components */
 .section-components {
-    background: url(../img/section-components-bg.png) no-repeat center top;
+    background: url(../img/section-components-bg.png) no-repeat center top / cover;
     position: relative;
     padding: 190px 0 80px;
 }
@@ -426,9 +445,7 @@ html, body {
 }
 
 .section-components p {
-    font-size: 20px;
     line-height: 1.3;
-    color: #6f8279;
     margin-bottom: 30px;
 }
 
@@ -479,6 +496,8 @@ html, body {
     color: #fff;
     line-height: 1.13;
     margin-bottom: 17px;
+    font-family: 'FuturaNewBook', sans-serif;
+    text-transform: none;
 }
 
 .case-studies-text span {
@@ -493,7 +512,6 @@ html, body {
 }
 
 .case-studies-person-position {
-    font-size: 20px;
     line-height: 1.3;
     color: #7d8c9a;
     margin-bottom: 47px;
@@ -519,6 +537,7 @@ html, body {
     height: 46px;
     border-radius: 6px;
     width: 278px;
+    max-width: 100%;
     background-color: transparent;
     font-size: 14px;
     color: #fff;
@@ -528,19 +547,6 @@ html, body {
 .section-contact .form-control:focus {
     border-color: #20b1a5;
     box-shadow: none;
-}
-
-.form-control::-moz-placeholder {
-    color: #fff;
-    font-size: 14px;
-}
-.form-control:-ms-input-placeholder {
-    color: #fff;
-    font-size: 14px;
-}
-.form-control::-webkit-input-placeholder {
-    color: #fff;
-    font-size: 14px;
 }
 
 .section-contact .form-control:last-of-type {
@@ -560,6 +566,11 @@ html, body {
     text-transform: uppercase;
     width: 100px;
     padding: 6px 12px;
+}
+
+.section-contact .btn:hover {
+    background-color: #48c8bd;
+    border-color: #48c8bd;
 }
 
 /* Section: Infographic */
@@ -584,11 +595,13 @@ html, body {
 }
 
 /* Section: Solutions */
-.single-solution {
-    padding: 60px 0;
+.site-section.section-case-studies,
+.site-section.section-solutions {
+    padding: 0;
 }
 
 .single-solution {
+    padding: 60px 0;
     box-shadow: inset 0 -1px 0 0 #e4e9ed;
 }
 
@@ -609,12 +622,10 @@ html, body {
 .solutions-content h3 {
     font-size: 16px;
     color: #444e5a;
-    text-transform: uppercase;
     margin: 0 0 10px;
 }
 
 .solutions-content p {
-    font-size: 19px;
     line-height: 26px;
     margin: 0 0 25px;
 }
@@ -632,11 +643,9 @@ html, body {
     padding-bottom: 70px;
     margin: 0;
     font-family: 'FuturaNewBook', sans-serif;
-    text-transform: uppercase;  
 }
 
 .section-clients-quote p {
-    font-size: 19px;
     line-height: 1.4;
 }
 
@@ -666,7 +675,7 @@ html, body {
     padding-top: 20px;
 }
 
-.testimonial p {
+.testimonial > p {
     font-size: 28px;
     line-height: 1.18;
     color: #6f7c82;
@@ -682,7 +691,6 @@ html, body {
 }
 
 .testimonial-author-content p {
-    font-size: 19px;
     line-height: 1.37;
     margin: 0;
 }
@@ -691,6 +699,55 @@ html, body {
     color: #7d8c9a;
 }
 
+/* Section: Team member */
+.section-about {
+    padding: 90px 0;
+}
+
+.team-member + .team-member {
+    margin-top: 60px;
+}
+
+.team-member-thumb {
+    float: left;
+}
+
+.team-member-thumb img {
+    max-width: 100%;
+}
+
+.team-member-content {
+    padding-left: 440px;
+}
+
+.team-member-content h3 {
+    font-size: 30px;
+    color: #454c5c;
+    text-transform: none;
+    margin: 0 0 15px;
+}
+
+.team-member-content h3.uppercase-text {
+    text-transform: uppercase;
+}
+
+.team-member-content p {
+    font-size: 18px;
+    color: #494949;
+}
+
+.team-member-content p + p {
+    margin-top: 20px;
+}
+
+.team-member-content li {
+    font-size: 18px;
+    color: #494949;
+}
+
+.team-member-content li span {
+    margin-right: 20px;
+}
 
 /* FOOTER 
 ================================================== */
@@ -714,11 +771,10 @@ html, body {
     text-transform: uppercase;
 }
 
-.footer-nav a:hover {
+.footer-nav a:hover,
+.footer-nav li.active a {
     color: #444e5a;
-    text-decoration: underline;
 }
-
 
 /* MODAL 
 ================================================== */

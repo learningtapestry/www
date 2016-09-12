@@ -4,7 +4,7 @@ var anchor = document.getElementById('toggle-menu');
 var open = false;
 anchor.onclick = function(event) {
     event.preventDefault();
-    if(!open){
+    if(!open) {
         this.classList.add('close');
         open = true;
     } else {
@@ -23,5 +23,6 @@ $(function () {
         }
     });
 
+    retinajs();
 
 });
