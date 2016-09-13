@@ -106,7 +106,7 @@ label {
     text-transform: uppercase;
     padding: 16px 38px;
     font-family: 'FuturaMedium', sans-serif;
-    letter-spacing: 0.6px;
+    letter-spacing: 1.5px;
 }
 
 .btn-green-text {
@@ -232,7 +232,7 @@ html, body {
     border-bottom: 2px solid transparent;
     padding-bottom: 6px;
     font-family: 'FuturaMedium', sans-serif;
-    letter-spacing: 0.7px;
+    letter-spacing: 1.5px;
 }
 
 .main-nav li a:hover,
@@ -398,7 +398,7 @@ html, body {
 }
 
 .service-item-thumb {
-    height: 100px;
+    height: 90px;
     position: relative;
 }
 
@@ -753,8 +753,8 @@ html, body {
 ================================================== */
 .site-footer {
     height: 100px;
-    line-height: 100px;
     text-align: center;
+    padding: 25px 0;
 }
 
 .footer-nav {
@@ -774,6 +774,12 @@ html, body {
 .footer-nav a:hover,
 .footer-nav li.active a {
     color: #444e5a;
+}
+
+.copyright {
+    color: #c4ccd0;
+    font-size: 14px;  
+    margin: 10px 0 0;  
 }
 
 /* MODAL 

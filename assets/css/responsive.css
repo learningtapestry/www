@@ -17,6 +17,11 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width : 1199px) {
+
+	.hero-home {
+		background: url(../img/polygons-for-smaller-devices.png) no-repeat scroll center right / auto 100% #2d3e4f; 
+	}
+
 	.case-studies-right-inner {
 	    padding: 50px;
 	}
@@ -38,6 +43,14 @@
 	
 	.main-nav li {
 		margin-right: 50px;
+	}
+
+	.hero-home {
+		background: url(../img/polygons-for-smaller-devices.png) no-repeat scroll center right / auto 100% #2d3e4f; 
+	}
+
+	.hero-content {
+		width: 330px;
 	}
 
 	.hero-title {
@@ -321,11 +334,6 @@
 	}
 
 	/* Footer */
-	.site-footer {
-	    height: 60px;
-	    line-height: 60px;
-	}
-
 	.footer-nav li + li {
 	    margin-left: 25px;
 	}
