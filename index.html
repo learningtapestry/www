@@ -199,9 +199,8 @@
                         <a href="#" class="btn btn-green-text" data-toggle="modal" data-target="#demo-form">Request a demo</a>
 
                     </div>
-                </div>
 
-                
+                </div>
 
             </div><!-- /.container --> 
 
@@ -270,11 +269,22 @@
                 <h2 class="section-title">Contact us</h2>
                 <p class="section-subtitle">We'd love to hear from you</p>
                 
-                <form class="form-inline">
-                    <input type="email" name="email" class="form-control" placeholder="Enter your email address">
-                    <input type="text" name="message" class="form-control" placeholder="...and your message here">
-                    <button type="submit" class="btn btn-send">Send</button>
-                </form>
+                <form id="contact-form" class="form-inline">
+
+                    <div class="form-group">
+                        <input id="email" type="email" name="email" class="form-control" placeholder="Enter your email address">
+                    </div>
+
+                    <div class="form-group">
+                        <input id="message" type="text" name="message" class="form-control" placeholder="...and your message here">
+                    </div>
+                    
+                    <input type="hidden" name="caller" id="caller" value="contact-caller">
+                    <button type="submit" class="submit-button btn btn-send">Send</button>
+
+                    <div class="success-msg hidden">Your message has been sent!</div>
+
+                </form><!-- /#contact-form -->
 
             </div><!--/.container -->
 
@@ -311,38 +321,40 @@
                 <h4 class="modal-title" id="demoForm">Demo request form</h4>
                 <p class="modal-text">Learn how to start your own educational product with Learning Tapestry. New idea? Connecting educational systems together? Problem we can solve? Request a free demo (or just leave us a message) and we will contact you.</p>
                 
-                <form>
-
+                <form id="modal-contact-form">
+                 
                     <div class="row">
                         
                         <div class="form-group col-sm-6">
                             <label for="modal-name">Name</label>
-                            <input type="text" name="modal-name" id="modal-name" class="form-control" placeholder="John Dou">
+                            <input type="text" name="modal_name" id="modal-name" class="form-control" placeholder="John Dou">
                         </div>
 
                         <div class="form-group col-sm-6">
                             <label for="modal-email">Email</label>
-                            <input type="email" name="modal-email" id="modal-email" class="form-control" placeholder="my@gmail.com">
+                            <input type="email" name="modal_email" id="modal-email" class="form-control" placeholder="my@gmail.com">
                         </div>
 
-                    </div>
+                    </div><!-- /.row -->
 
                     <div class="row">
 
                         <div class="form-group col-sm-12">
                             <label for="modal-message">Message</label>
-                            <textarea name="modal-message" id="modal-message" class="form-control" placeholder="Say hi to us…"></textarea>
+                            <textarea name="modal_message" id="modal-message" class="form-control" placeholder="Say hi to us…"></textarea>
+                            <div class="success-msg hidden">Your message has been sent!</div>
                         </div>
 
-                    </div>
+                    </div><!-- /.row -->
 
                     <div class="text-center">
-    
+                        
+                        <input type="hidden" name="caller" id="modal-caller" value="modal-caller">
                         <button type="submit" class="btn btn-green">Send request</button>
 
-                    </div>
+                    </div><!-- /.submit row -->
 
-                </form>
+                </form><!-- /#modal-contact-form -->
 
             </div><!-- /.modal-content -->
 
@@ -354,8 +366,14 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
-    <script src="assets/js/retina.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- Get the appropriate image for Retina -->
+    <script src="assets/js/retina.min.js"></script>
+
+    <!-- Contact form validation -->
+    <script src="assets/js/jquery.validate.js"></script>
+
     <script src="assets/js/script.js"></script>
   
 </body>

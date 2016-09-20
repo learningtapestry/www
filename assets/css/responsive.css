@@ -295,15 +295,35 @@
 		margin: 40px auto 0;
 	}
 
-	.section-contact .form-control {
-		margin-bottom: 15px;
+	.section-contact .form-group {
+		float: left;
+		margin-bottom: 20px;
 	}
 	
 	.section-contact .btn,
-	.section-contact .form-control:last-of-type {
+	.section-contact .form-control {
     	border-radius: 6px;
     	margin-left: 0;
     }
+
+    .section-contact .form-control {
+    	border-right: 2px solid rgba(255, 255, 255, 0.3);
+    } 
+
+    .section-contact .form-group:first-child {
+    	margin-right: 0;
+    }
+
+    .section-contact label {
+    	position: relative;
+    	float: left;
+    	top: 0;
+	    left: 0;
+    }
+
+    .section-contact .form-group:last-of-type label {
+	    margin-left: 0px;
+	}
 
 	.solutions-thumb {
 		float: none;

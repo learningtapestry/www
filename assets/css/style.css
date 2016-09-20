@@ -160,6 +160,26 @@ label {
     font-size: 14px;
 }
 
+.has-error .form-control:focus {
+    box-shadow: none;
+}
+
+/* form error msg */
+.error {
+    position: absolute;
+    bottom: -20px;
+    right: 5px;
+    margin-bottom: 0;
+    color: #DB4104; 
+    text-align: left;
+    font-size: 12px;
+}
+
+#modal-contact-form .error {
+    right: 20px;
+}
+
+
 /* Margin and padding resets */
 .mt-45 { margin-top: 45px; }
 .mt-65 { margin-top: 65px; }
@@ -532,6 +552,15 @@ html, body {
 
 .section-contact form {
     margin-top: 40px;
+    position: relative;
+}
+
+.section-contact .form-group {
+    position: relative;
+}
+
+.section-contact .form-group:first-child {
+    margin-right: 20px;
 }
 
 .section-contact .form-control {
@@ -544,6 +573,7 @@ html, body {
     font-size: 14px;
     color: #fff;
     box-shadow: none;
+    margin-bottom: 0;
 }
 
 .section-contact .form-control:focus {
@@ -551,9 +581,9 @@ html, body {
     box-shadow: none;
 }
 
-.section-contact .form-control:last-of-type {
+.section-contact .form-group:last-of-type .form-control {
     border-radius: 6px 0 0 6px;
-    margin-left: 20px;
+    border-right: 0 none;
 }
 
 .section-contact .btn {
@@ -573,6 +603,16 @@ html, body {
 .section-contact .btn:hover {
     background-color: #48c8bd;
     border-color: #48c8bd;
+}
+
+.success-msg {
+    position: absolute;
+    font-size: 14px;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #20b1a5;
 }
 
 /* Section: Infographic */
