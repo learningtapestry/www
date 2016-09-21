@@ -586,7 +586,7 @@ html, body {
     box-shadow: none;
 }
 
-.section-contact .form-group:last-of-type .form-control {
+.section-contact .form-group.form-group-last .form-control {
     border-radius: 6px 0 0 6px;
     border-right: 0 none;
 }

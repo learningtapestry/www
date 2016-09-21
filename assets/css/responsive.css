@@ -301,12 +301,13 @@
 	}
 	
 	.section-contact .btn,
-	.section-contact .form-control {
+	.section-contact .form-control,
+	.section-contact .form-group.form-group-last .form-control {
     	border-radius: 6px;
     	margin-left: 0;
     }
 
-    .section-contact .form-control {
+    .section-contact .form-group.form-group-last .form-control {
     	border-right: 2px solid rgba(255, 255, 255, 0.3);
     } 
 
