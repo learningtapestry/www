@@ -157,6 +157,7 @@
                             <li><span>&#10004;</span> Software Engineering in Ruby, C#, Java, PHP and Javascript; </li>
                             <li><span>&#10004;</span> User Experience and Interface Design</li>
                         </ul>
+                        <p><a href="#" data-toggle="modal" data-target="#demo-form">Contact us</a> if you want to be a part of our team. We have job opportunities for Ruby on Rails engineers, PHP engineers and Product Managers.</p>
                     </div><!-- /.team-member-content -->
 
                 </div><!-- /.team-member -->
@@ -213,6 +214,57 @@
         </div><!-- /.container -->
 
     </footer><!-- /#footer -->
+    
+     <!-- Modal -->
+    <div class="modal fade" id="demo-form" tabindex="-1" role="dialog" aria-labelledby="demoForm">
+
+        <div class="modal-dialog" role="document">
+
+            <div class="modal-content">
+                
+                <h4 class="modal-title" id="demoForm">Contact us</h4>
+                <p class="modal-text">Please tell us about yourself and add your contacts and a link to your GitHub profile, if available.</p>
+                
+                <form id="modal-contact-form">
+                 
+                    <div class="row">
+                        
+                        <div class="form-group col-sm-6">
+                            <label for="modal-name">Name</label>
+                            <input type="text" name="modal_name" id="modal-name" class="form-control" placeholder="John Dou">
+                        </div>
+
+                        <div class="form-group col-sm-6">
+                            <label for="modal-email">Email</label>
+                            <input type="email" name="modal_email" id="modal-email" class="form-control" placeholder="my@gmail.com">
+                        </div>
+
+                    </div><!-- /.row -->
+
+                    <div class="row">
+
+                        <div class="form-group col-sm-12">
+                            <label for="modal-message">Message</label>
+                            <textarea name="modal_message" id="modal-message" class="form-control" placeholder="Put in your message here…"></textarea>
+                            <div class="success-msg hidden">Your message has been sent!</div>
+                        </div>
+
+                    </div><!-- /.row -->
+
+                    <div class="text-center">
+                        
+                        <input type="hidden" name="caller" id="modal-caller" value="modal-caller">
+                        <button type="submit" class="btn btn-green">Send request</button>
+
+                    </div><!-- /.submit row -->
+
+                </form><!-- /#modal-contact-form -->
+
+            </div><!-- /.modal-content -->
+
+        </div><!-- /.modal-dialog -->
+
+    </div><!-- /.modal -->
 
 
     <!-- Bootstrap core JavaScript

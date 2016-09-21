@@ -62,6 +62,10 @@
 
 /* CUSTOM RESETS
 ================================================== */
+a {
+	color: #20b1a5;
+}
+
 a,
 button {
     transition: all 0.25s ease-in-out;
@@ -75,6 +79,7 @@ a:focus,
 a:hover {
     outline: 0 none;
     text-decoration: none;
+    color: #20b1a5;
 }
 
 h1, h2, h3, h4, h5, h6 {
