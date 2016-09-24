@@ -50,6 +50,9 @@ $(function () {
                                 $(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
                             });
                             $("#contact-form .success-msg").removeClass("hidden");
+							setTimeout(function() {
+								$("#contact-form .success-msg").fadeOut();
+							}, 3000 );
                         } 
                     }
                 });
@@ -117,6 +120,9 @@ $(function () {
                                 $(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
                             });
                             $("#modal-contact-form .success-msg").removeClass("hidden");
+							setTimeout(function() {
+								$("#modal-contact-form .success-msg").fadeOut();
+							}, 3000 );
                         } 
                     }
                 });

@@ -17,7 +17,7 @@ if($Recipient) {
 	$Message = $_POST['message'];
 	
 	$Email_body = "";
-	if($Name.length > 0) {
+	if(strlen($Name) > 0) {
 		$Email_body .= "From: " . $Name . " \n" .
 					   "Email: " . $Email . "\n" .
 					   "Message: " . $Message . "\n";
@@ -35,7 +35,7 @@ if($Recipient) {
 
 	if ($sent){
 		$emailResult = array ('sent'=>'yes');
-	} else{
+	} else {
 		$emailResult = array ('sent'=>'no');
 	}
 
