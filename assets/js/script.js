@@ -45,6 +45,7 @@ $(function () {
                     },
                     dataType: "json",
                     success: function (data) {
+                        console.log(data);
                         if (data.sent == "yes") {
                             $("#contact-form .form-control").each(function() { 
                                 $(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
