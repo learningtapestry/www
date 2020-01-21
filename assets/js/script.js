@@ -173,6 +173,7 @@ $(function () {
 
     }
 
+    // Replace profile pictures
     $(".team-member-thumb").mouseenter(function (event) {
         var thumb = $(this).find("img");
         var src = thumb.attr("src");
@@ -183,5 +184,13 @@ $(function () {
         var originalSrc = thumb.attr("original-src");
         thumb.attr("src", originalSrc);
         thumb.attr("original-src", null);
+    });
+
+    // Preload profile replacements
+    $(".team-member-thumb > img").each(function (elm) {
+        var dogImg = $(this).data("dog");
+        if (dogImg) {
+            new Image().src = dogImg;
+        }
     });
 });
