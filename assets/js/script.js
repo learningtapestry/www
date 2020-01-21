@@ -173,4 +173,15 @@ $(function () {
 
     }
 
+    $(".team-member-thumb").mouseenter(function (event) {
+        var thumb = $(this).find("img");
+        var src = thumb.attr("src");
+        thumb.attr("src", thumb.data("dog"));
+        thumb.attr("original-src", src);
+    }).mouseleave(function (event) {
+        var thumb = $(this).find("img");
+        var originalSrc = thumb.attr("original-src");
+        thumb.attr("src", originalSrc);
+        thumb.attr("original-src", null);
+    });
 });

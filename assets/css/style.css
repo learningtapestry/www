@@ -824,16 +824,8 @@ body {
     margin-top: 60px;
 }
 
-.team-member-thumb {
-    float: left;
-}
-
 .team-member-thumb img {
     max-width: 100%;
-}
-
-.team-member-content {
-    padding-left: 440px;
 }
 
 .team-member-content h3 {
@@ -884,6 +876,18 @@ body {
 
 .team-member-content li span {
     margin-right: 20px;
+}
+
+.team-row {
+    margin-bottom: 60px;
+}
+
+.team-row:last-child {
+    margin-bottom: 0;
+}
+
+.team-row h4 {
+    font-size: small;
 }
 
 
@@ -1001,18 +1005,4 @@ body {
 
 .modal-content .btn {
     margin-top: 15px;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
 }
