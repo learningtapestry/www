@@ -820,6 +820,10 @@ body {
     padding: 90px 0;
 }
 
+.team-member {
+    display: block;
+}
+
 .team-member+.team-member {
     margin-top: 60px;
 }
@@ -893,7 +897,7 @@ body {
 /* Section: profile */
 
 .section-profile {
-    padding: 60px;
+    padding: 60px 0;
 }
 
 .profile-thumb {

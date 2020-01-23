@@ -352,6 +352,12 @@
 		margin-bottom: 0px;
 	}
 
+	/* Profile */
+
+	.profile-thumb {
+		margin: 0 auto 30px;
+	}
+
 	/* Footer */
 	.footer-nav li + li {
 	    margin-left: 25px;
