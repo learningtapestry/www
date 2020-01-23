@@ -346,6 +346,7 @@
 
 	.team-member {
 		margin-bottom: 30px;
+		text-align: center;
 	}
 
 	.team-member:last {
@@ -356,6 +357,7 @@
 
 	.profile-thumb {
 		margin: 0 auto 30px;
+		text-align: center;
 	}
 
 	/* Footer */
