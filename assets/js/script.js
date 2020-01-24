@@ -172,4 +172,24 @@ $(function () {
 
     }
 
+    // Preload profile replacements
+    $(".team-member-thumb > img, .profile-thumb > img").each(function (elm) {
+        var dogImg = $(this).data("dog");
+        if (dogImg) {
+            new Image().src = dogImg;
+        }
+    });
+
+    // Replace profile pictures
+    $(".team-member-thumb > img, .profile-thumb > img").mouseenter(function (event) {
+        var thumb = $(this);
+        var src = thumb.attr("src");
+        thumb.attr("src", thumb.data("dog"));
+        thumb.attr("original-src", src);
+    }).mouseleave(function (event) {
+        var thumb = $(this);
+        var originalSrc = thumb.attr("original-src");
+        thumb.attr("src", originalSrc);
+        thumb.attr("original-src", null);
+    });
 });

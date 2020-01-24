@@ -29,10 +29,6 @@
 	.case-studies-text {
 		font-size: 34px;
 	}
-
-	.team-member-content {
-	    padding-left: 380px;
-	}
 }
 
 
@@ -92,16 +88,6 @@
 
 	.testimonial-logo { 
 		padding-top: 0;
-	}
-
-	.team-member-thumb {
-	    float: none;
-	    text-align: center;
-	}
-
-	.team-member-content {
-	    margin-top: 30px;
-	    padding-left: 0;
 	}
 
 }
@@ -352,6 +338,26 @@
 	.team-member-content li,
 	.team-member-content p {
 		font-size: 16px;
+	}
+
+	.team-row {
+		margin-bottom: 0;
+	}
+
+	.team-member {
+		margin-bottom: 30px;
+		text-align: center;
+	}
+
+	.team-member:last {
+		margin-bottom: 0px;
+	}
+
+	/* Profile */
+
+	.profile-thumb {
+		margin: 0 auto 30px;
+		text-align: center;
 	}
 
 	/* Footer */

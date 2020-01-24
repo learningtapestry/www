@@ -32,7 +32,7 @@ if($Recipient) {
 
 	// mail function
 	$sent = mail($Recipient, $Subject, $Email_body, $Email_headers);
-
+ 
 	if ($sent){
 		$emailResult = array ('sent'=>'yes');
 	} else {
@@ -44,6 +44,7 @@ if($Recipient) {
 } else {
 
 	$emailResult = array ('sent'=>'no');
+
 	echo json_encode($emailResult);
 
 }
