@@ -45,7 +45,6 @@ $(function () {
                     },
                     dataType: "json",
                     success: function (data) {
-                        console.log(data);
                         if (data.sent == "yes") {
                             $("#contact-form .form-control").each(function() { 
                                 $(this).prop('value', '').parent().removeClass("has-success").removeClass("has-error");
@@ -182,13 +181,13 @@ $(function () {
     });
 
     // Replace profile pictures
-    $(".team-member, .section-profile").mouseenter(function (event) {
-        var thumb = $(this).find(".team-member-thumb > img, .profile-thumb > img");
+    $(".team-member-thumb > img, .profile-thumb > img").mouseenter(function (event) {
+        var thumb = $(this);
         var src = thumb.attr("src");
         thumb.attr("src", thumb.data("dog"));
         thumb.attr("original-src", src);
     }).mouseleave(function (event) {
-        var thumb = $(this).find(".team-member-thumb > img, .profile-thumb > img");
+        var thumb = $(this);
         var originalSrc = thumb.attr("original-src");
         thumb.attr("src", originalSrc);
         thumb.attr("original-src", null);
