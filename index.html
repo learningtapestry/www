@@ -1,373 +1,865 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400&family=Nunito:wght@700&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <title>Learning Tapestry</title>
-
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="keywords" content="">
-
-    <!-- Mobile Specific Metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-
-    <!-- Favicon
-    ================================================== -->
-    <link rel="shortcut icon" type="image/png" href="img/favicon.ico">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
-
-    <!-- Stylesheets
-    ================================================== -->
-    <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom styles for this template -->
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
-
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
-<body>
-
-
-    <header id="masthead" class="site-header">
-
-        <div class="container">
-
-            <a class="site-logo" href="index.html"><img src="assets/img/logo.png" alt="Learning Tapestry Logo" data-rjs="3"></a>
-
-            <button class="lines-button x" type="button" id="toggle-menu">
-                <span class="lines line-top"></span>
-                <span class="lines line-middle"></span>
-                <span class="lines line-bottom"></span>
-            </button><!-- /.lines-button -->
-
-            <nav class="main-nav pull-right">
-
-                <a class="site-logo visible-xs" href="index.html"><img src="assets/img/logo.png" alt="Learning Tapestry Logo" data-rjs="3"></a>
-
-                <ul id="menu-primary-navigation" class="menu-nav-ul">
-                    <li class="visible-xs"><a href="index.html">Home</a></li>
-                    <li><a href="solutions.html">Solutions</a></li>
-                    <li><a href="clients.html">Clients</a></li>
-                    <li><a href="about.html">About Us</a></li>
-                </ul><!-- /.menu-nav-ul -->
-
-            </nav><!-- /.main-nav -->
-
-        </div><!-- /.container -->
-
-    </header><!-- /.site-header -->
-
-
-    <section class="hero hero-home">
-
-        <div class="container">
-
-            <div class="hero-content">
-
-                <h1 class="hero-title">What we do</h1>
-
-                <p class="hero-text">Learning Tapestry provides innovation and infrastructure solutions to support learners and educators. We solve hard problems in complex digital learning environments.</p>
-
-                <a href="mailto:social@learningtapestry.com" class="btn" >Request a demo</a>
-
-            </div><!-- /.hero-content -->
-
-        </div><!-- /.container -->
-
-    </section><!-- /.hero.hero-home -->
-
-
-    <main id="main" class="site-main">
-
-        <section class="site-section section-services text-center">
-
-            <div class="container">
-
-                <h2 class="section-title">What we can do for you</h2>
-                <p class="section-subtitle">Learning Tapestry provides</p>
-
-                <div class="row mt-65">
-
-                    <div class="col-sm-5 col-sm-offset-1">
-
-                        <div class="service-item">
-
-                            <div class="service-item-thumb">
-                                <img src="assets/img/services-product-design.png" alt="Product design &amp; implementation" data-rjs="2">
-                            </div><!-- /.service-item-thumb -->
-
-                            <div class="service-item-content">
-                                <h3>Product design &amp; implementation</h3>
-                                <p class="p-19">Our highly expert product designers, software engineers and technology principals will identify your solutions needs in a way that can be quickly and cost-effectively implemented.</p>
-                            </div><!-- /.service-item-content -->
-
-                        </div><!-- /.service-item -->
-
-                    </div>
-
-                    <div class="col-sm-5">
-
-                        <div class="service-item">
-
-                            <div class="service-item-thumb">
-                                <img src="assets/img/services-tech-design.png" alt="Tech Design &amp; management" data-rjs="2">
-                            </div><!-- /.service-item-thumb -->
-
-                            <div class="service-item-content">
-                                <h3>Tech Design &amp; <br class="visible-sm">management</h3>
-                                <p class="p-19">Consulting team will provide you with outside perspective on the product and development strategy, or review your development methods and code base to find ways to improve your systems and answer questions.</p>
-                            </div><!-- /.service-item-content -->
-
-                        </div><!-- /.service-item -->
-
-                    </div>
-
-                </div>
-
-                <div class="row mt-45">
-
-                    <div class="col-sm-5 col-sm-offset-1">
-
-                        <div class="service-item">
-
-                            <div class="service-item-thumb">
-                                <img src="assets/img/services-education-tech.png" alt="Tech Design &amp; management" data-rjs="2">
-                            </div><!-- /.service-item-thumb -->
-
-                            <div class="service-item-content">
-                                <h3>Education tech integration</h3>
-                                <p class="p-19">We help partners integrate technology infrastructure into existing systems, help organizations with limited technical resources to get the most out of their existing products.</p>
-                            </div><!-- /.service-item-content -->
-
-                        </div><!-- /.service-item -->
-
-                    </div>
-
-                    <div class="col-sm-5">
-
-                        <div class="service-item">
-
-                            <div class="service-item-thumb">
-                                <img src="assets/img/services-cto-demand.png" alt="Tech Design &amp; management" data-rjs="2">
-                            </div><!-- /.service-item-thumb -->
-
-                            <div class="service-item-content">
-                                <h3>CTO on demand services</h3>
-                                <p class="p-19">Our consulting CTOs can provide high-end, cost-effective help for small organizations who aren’t ready for a full-time CTO, and for larger organizations who have CTOs that are already committed to other priority projects.</p>
-                            </div><!-- /.service-item-content -->
-
-                        </div><!-- /.service-item -->
-
-                    </div>
-
-                </div><!-- /.row -->
-
-            </div><!-- /.container -->
-
-        </section><!-- /.site-section.section-services -->
-
-
-        <section class="site-section section-components text-center">
-
-            <div class="container">
-
-                <div class="section-thumb">
-                    <object data="assets/img/section-components-icon.svg" type="image/svg+xml"><img src="assets/img/section-components-icon.png" alt="Tech Design &amp; management" data-rjs="3"></object>
-                </div>
-
-                <div class="row">
-                    <div class="col-sm-10 col-sm-offset-1">
-
-                        <h2 class="section-title">We build &amp; operate infrastructure components</h2>
-
-                        <p>Learning Tapestry builds and operates infrastructure components with new capabilities on top of existing education systems. These components help provide snap-in digital content search and analytics functions in learning environments.</p>
-
-                        <a href="#" class="btn btn-green-text" data-toggle="modal" data-target="#demo-form">Request a demo</a>
-
-                    </div>
-
-                </div>
-
-            </div><!-- /.container -->
-
-        </section><!-- /.site-section.section-components -->
-
-
-        <section class="site-section section-clients text-center">
-
-            <div class="container">
-
-                <h2 class="section-title">Clients</h2>
-                <p class="section-subtitle">We are proud to provide solutions for</p>
-
-                <div class="clients-list">
-                    <a href="http://www.relay.edu/" target="_blank"><img src="assets/img/client-1.png" alt="Relay/GSE" data-rjs="3"></a>
-                    <a href="http://www.gatesfoundation.org/" target="_blank"><img src="assets/img/client-2.png" alt="Bill and Melinda Gates Foundation" data-rjs="3"></a>
-                    <a href="http://www.navigationnorth.com/" target="_blank"><img src="assets/img/client-3.png" alt="Navigation North" data-rjs="3"></a>
-                    <a href="http://appliedminds.com/" target="_blank"><img src="assets/img/client-7.png" alt="Applied Minds" data-rjs="3"></a>
-                    <a href="https://www.unbounded.org/" target="_blank"><img src="assets/img/client-8.png" alt="UnboundEd" data-rjs="3"></a>
-                    <a href="http://www.hewlett.org/" target="_blank"><img src="assets/img/client-9.png" alt="Hewlett Foundation" data-rjs="3"></a>
-                </div>
-
-                <a href="clients.html" class="btn btn-green-text">Learn more</a>
-
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <div class="wrapper navbar">
+          <div class="header__logo container-fluid">
+            <a
+              class="navbar__title navbar-brand d-flex align-items-center"
+              href="/"
+            >
+              <img
+                src="assets/images/logo.png"
+                alt="Logo"
+                width="30"
+                height="24"
+                class="logo d-inline-block align-text-top"
+              />
+            </a>
+            <div
+              class="navbar__container position-relative desktop"
+              id="navbarNav"
+            >
+              <ul class="navbar__main navbar d-flex flex-row">
+                <li class="nav-item">
+                  <a class="nav-link" href="solutions.html">Solutions</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a href="mailto:social@learningtapestry.com" style="text-decoration: none;">
+                    <button type="button" class="nav-link btn nav-item--decoration d-flex justify-content-center align-items-center" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                      Contact Us
+                    </button>
+                  </a>
+                </li>
+              </ul>
             </div>
-
-        </section><!-- /.site-section.section-components -->
-
-
-        <section class="site-section section-case-studies">
-
-            <div class="case-studies-left"></div>
-            <div class="case-studies-right"></div>
-
-            <div class="container-fluid">
-
-                <div class="col-sm-6 col-sm-offset-6">
-
-                    <div class="case-studies-right-inner">
-
-                        <h4 class="case-studies-text">Learning Tapestry has provided us with <span>strategic insight into technology</span> that we couldn't find anywhere else.</h4>
-
-                        <img src="assets/img/testimonial-img-2.png" alt="" class="visible-xs" data-rjs="3">
-
-                        <p class="case-studies-person">Norman Atkins</p>
-                        <p class="case-studies-person-position">Co-founder and President<br> Relay GSE</p>
-
-                        <a href="clients.html" class="btn">More case studies</a>
-
-                    </div>
-
-                </div>
-
+          </div>
+        </div>
+        <div class="collapse" id="navbarToggleExternalContent">
+          <div class="wrapper navbar">
+            <div class="container-fluid justify-content-center">
+              <div class="navbar__container position-relative" id="navbarNav">
+                <ul class="navbar__main navbar d-flex flex-row">
+                  <li class="nav-item">
+                    <a class="nav-link" href="solutions.html">Solutions</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about-us.html">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="mailto:social@learningtapestry.com" style="text-decoration: none;">
+                      <button
+                        type="button"
+                        class="nav-link btn nav-item--decoration d-flex justify-content-center align-items-center"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1"
+                      >
+                        Contact Us
+                      </button>
+                    </a>
+                  </li>
+                </ul>
+              </div>
             </div>
-
-        </section><!-- /.site-section.section-components -->
-
-
-        <section class="site-section section-contact text-center">
-
-            <div class="container">
-
-                <h2 class="section-title">Contact us</h2>
-                <p class="section-subtitle">We'd love to hear from you</p>
-                <p class="section-subtitle"><a href="mailto:social@learningtapestry.com">Send us an email</a></p>
-
-
-
-            </div><!--/.container -->
-
-        </section><!-- /.section-contact.site-section -->
-
-
-    </main><!-- /#main -->
-
-
-    <footer id="colophon" class="site-footer">
-
-        <div class="container">
-
-            <ul class="list-inline footer-nav">
-                <li><a href="solutions.html">Solutions</a></li>
-                <li><a href="clients.html">Clients</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="privacy-policy.html">Privacy Policy</a></li>
-            </ul><!-- /.footer-nav -->
-
-            <p class="copyright">&copy; Learning Tapestry, Inc. 2022</p>
-
-        </div><!-- /.container -->
-
-    </footer><!-- /#footer -->
-
+          </div>
+        </div>
+        <button class="mobile-burger-menu"></button>
+        <div class="mobile-menu">
+          <div class="menu">
+            <button class="close-menu"></button>
+            <ul>
+              <li><a href="/">Home</a></li>
+              <li><a href="solutions.html">Solutions</a></li>
+              <li><a href="about-us.html">About Us</a></li>
+              <li class="nav-item">
+                <a href="mailto:social@learningtapestry.com" style="text-decoration: none;">
+                  <button
+                    type="button"
+                    class="nav-link btn nav-item--decoration d-flex justify-content-center align-items-center"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
+                    Contact Us
+                  </button>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="tablet-nav navbar navbar-dark">
+        <div class="container-fluid">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarToggleExternalContent"
+            aria-controls="navbarToggleExternalContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <section class="section1">
+      <div class="wrapper d-flex justify-content-between">
+        <div class="d-flex justify-content-center flex-column">
+          <h1 class="heading1">
+            Innovation and technology solutions to support educators and
+            learners
+          </h1>
+          <p class="subheading">
+            At Learning Tapestry we solve hard problems <br /> in complex technology-based educational ecosystems.
+          </p>
+          <a
+            href="mailto:social@learningtapestry.com"
+            class="main-button nav-link text-white d-flex justify-content-center align-items-center"
+          >
+            Talk with us
+            <img class="arrow-icon" src="assets/svg/arrow-right1.svg" />
+          </a>
+        </div>
+        <!-- <img class="image" src="assets/images/image1.png" alt="office working"> -->
+      </div>
+    </section>
+    <section class="section2">
+      <div class="wrapper">
+        <h2 class="heading2 text-center">
+          What Learning Tapestry Can Do for You
+        </h2>
+        <div
+          class="row row-cols-2"
+          style="--bs-gutter-y: 40px; --bs-gutter-x: 40px"
+        >
+          <div class="col section2__item">
+            <div
+              class="section2__grid-item d-flex flex-column align-items-center"
+            >
+              <img class="image" src="assets/svg/cubes.svg" />
+              <h3 class="section2__h3">Product Development & Implementation</h3>
+              <p class="text text-center">
+                Our multidisciplinary teams will work with you to understand your objectives and identify technical solutions that meet your needs, and we will deliver on time and within budget.
+              </p>
+            </div>
+          </div>
+          <div class="col section2__item">
+            <div
+              class="section2__grid-item d-flex flex-column align-items-center"
+            >
+              <img class="image" src="assets/svg/monitor.svg" />
+              <h3 class="section2__h3">Technology Consulting</h3>
+              <p class="text text-center">
+                Our technology leaders can provide you with CTO-level strategic consulting services if your organization is too small to have a full-time CTO or if your CTO needs added support.
+              </p>
+            </div>
+          </div>
+          <div class="col section2__item">
+            <div
+              class="section2__grid-item d-flex flex-column align-items-center"
+            >
+              <img class="image" src="assets/svg/list.svg" />
+              <h3 class="section2__h3">Systems Integrations</h3>
+              <p class="text text-center">
+                Our backend development engineers will architect and implement custom integrations between disparate systems to help you get the most from your existing products.
+              </p>
+            </div>
+          </div>
+          <div class="col section2__item">
+            <div
+              class="section2__grid-item d-flex flex-column align-items-center"
+            >
+              <img class="image" src="assets/svg/gear.svg" />
+              <h3 class="section2__h3">Customizable Solutions for Content Creators</h3>
+              <p class="text text-center">
+                Our LCMS, bulk downloader, and AI content generator tools are designed specifically for educational content creators so you can create and distribute your content more efficiently. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section3 position-relative">
+      <div class="wrapper d-flex justify-content-between align-items-center">
+        <picture class="position-relative">
+          <img
+            class="image position-relative"
+            src="assets/images/image2.png"
+            alt="office working"
+          />
+        </picture>
+        <div>
+          <h2 class="heading2">We know technology. We know education.</h2>
+          <p class="subheading">
+            We want to know more about you <br /> and the technical challenges you’re facing.
+          </p>
+          <a
+            href="mailto:social@learningtapestry.com"
+            class="main-button nav-link d-flex justify-content-center align-items-center"
+          >
+            Talk with us
+            <img class="arrow-icon" src="assets/svg/arrow-right2.svg" />
+            <img class="arrow-icon" src="assets/svg/arrow-right1.svg" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="section4">
+      <div class="wrapper">
+        <h2 class="heading2 text-center">Clients</h2>
+        <p class="subheading text-center">
+          We are proud to provide solutions to:
+        </p>
+        <div class="client-logos d-flex justify-content-center">
+          <img
+            class="client-logo align-self-center"
+            src="assets/images/relay_new-logo.svg"
+            alt="client logo"
+          />
+          <img
+            class="client-logo align-self-center"
+            src="assets/images/sparkler-logo.png"
+            alt="client logo"
+          />
+          <img
+            class="client-logo align-self-center"
+            src="assets/images/credential-eng.webp"
+            alt="client logo"
+          />
+          <img
+            class="client-logo align-self-center"
+            src="assets/images/iste-logo.png"
+            alt="client logo"
+          />
+          <img
+            class="client-logo align-self-center"
+            src="assets/images/unbounded-logo.png"
+            alt="client logo"
+          />
+          <img
+            class="client-logo align-self-center"
+            src="assets/images/opensci_logo.svg"
+            alt="client logo"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="section5">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active opacity-100"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            class="opacity-100"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            class="opacity-100"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            class="opacity-100"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="carousel-item__block d-flex">
+              <div class="carousel-item__texts">
+                <h2 class="heading2">
+                  We help Noggin with their entire technology platform.
+                </h2>
+                <p class="text">
+                  From technology strategy, software architecture, devops,
+                  mobile development, web development, to analytics/learning
+                  data infrastructure: we are either lead in each of these areas
+                  or provide key technology support. Our partnership with Noggin
+                  has grown over the years as we've demonstrated the ability to
+                  solve hard problems, identify areas in need of attention, and
+                  think through technical problems from the point of view of
+                  technology architecture, product vision, business
+                  requirements, and marketing goals.
+                </p>
+                <p class="text">
+                  We've helped Noggin migrate completely from a codebase that
+                  slowed their innovation to one that is meeting their needs for
+                  creating the kid-friendly, learning-rich experience they want
+                  for their young users and their families. And we achieved all
+                  this on-time, on-budget, and with a reliable and performant
+                  infrastructure.
+                </p>
+              </div>
+              <div class="carousel-item__info-card">
+                <img
+                  class="carousel-item__img-quotes"
+                  src="assets/svg/quotes.svg"
+                  alt="quotes"
+                />
+                <div
+                  class="carousel-item__blockquote-info d-flex flex-column position-relative justify-content-between"
+                >
+                  <blockquote>
+                    <div class="large-quote">
+                      Learning Tapestry provides us both outstanding technology
+                      strategy and leadership, as well as a highly talented
+                      technical team. We confidently rely on Learning Tapestry
+                      to help us build our early childhood mobile and web
+                      products.
+                    </div>
+                  </blockquote>
+                  <div class="avatar-client-info-logo d-flex">
+                    <img
+                      class="section5__avatar"
+                      src="assets/images/avatar3.png"
+                      alt="client avatar"
+                      style="border-radius: 50%"
+                    />
+                    <div class="client-info">
+                      <p>Kristen Kane</p>
+                      <p>Executive Vice President</p>
+                      <p>Noggin, a division of Paramount</p>
+                    </div>
+                    <button
+                      type="button"
+                      class="mobile-modal-button nav-link btn nav-item--decoration"
+                      data-bs-toggle="modal"
+                      data-bs-target="#nogginModal"
+                    >
+                      Read more
+                    </button>
+                    <!-- <img class="section5__client-logo position-absolute" src="assets/images/#" alt="client logo" style="height: unset;"> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item__block d-flex">
+              <div class="carousel-item__texts">
+                <h2 class="heading2">We helped OpenSciEd build an open source curriculum authoring environment</h2>
+                <p class="text">
+                  It enables them to create and maintain all the
+                  open educational resource (OER) curriculum products they
+                  provide to schools.
+                </p>
+                <p class="text">
+                  We also provide integration support to connect their
+                  curriculum products with their public website.
+                </p>
+              </div>
+              <div class="carousel-item__info-card reduced-padding">
+                <img
+                  class="carousel-item__img-quotes"
+                  src="assets/svg/quotes.svg"
+                  alt="quotes"
+                />
+                <div
+                  class="carousel-item__blockquote-info d-flex flex-column position-relative justify-content-between"
+                >
+                  <blockquote
+                    style="
+                      margin-bottom: 8px;
+                      font-size: 1.4rem;
+                      line-height: 22px;
+                    "
+                  >
+                    Learning Tapestry's open source curriculum tools (LCMS) have
+                    transformed the way that we author materials and distribute
+                    final products to teachers. The ability to offer our
+                    materials in new and upcoming delivery platforms without
+                    having to revisit our authored content changes the way we
+                    think about portability. Working with Learning Tapestry is
+                    easy because we share the values embodied in providing the
+                    market with high quality free and open products.
+                  </blockquote>
+                  <div class="avatar-client-info-logo d-flex">
+                    <img
+                      class="section5__avatar"
+                      src="assets/images/avatar4.jpg"
+                      alt="client avatar"
+                      style="border-radius: 50%"
+                    />
+                    <div class="client-info">
+                      <p>Jim Ryan</p>
+                      <p>Executive Director</p>
+                      <p>OpenSciEd</p>
+                    </div>
+                    <button
+                      type="button"
+                      class="mobile-modal-button nav-link btn nav-item--decoration"
+                      data-bs-toggle="modal"
+                      data-bs-target="#openSciEd"
+                    >
+                      Read more
+                    </button>
+                    <img
+                      class="section5__client-logo position-absolute"
+                      src="assets/images/opensci_logo.svg"
+                      alt="client logo"
+                      style="height: 40px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item__block d-flex">
+              <div class="carousel-item__texts">
+                <h2 class="heading2">
+                  We helped Relay transition to sustainable learning
+                  infrastructure
+                </h2>
+                <p class="text">
+                  Relay wanted to transition from home-grown learning and
+                  finance systems to more stable infrastructure. We helped them
+                  navigate through this challenging process.
+                </p>
+                <p class="text">
+                  Along the way, we also helped them redesign their internal
+                  technical organization. We also help them with internal R&D
+                  work, including Doug Lemov's innovative Teach Like a Champion
+                  program (tlaconline.com).
+                </p>
+              </div>
+              <div class="carousel-item__info-card">
+                <img
+                  class="carousel-item__img-quotes"
+                  src="assets/svg/quotes.svg"
+                  alt="quotes"
+                />
+                <div
+                  class="carousel-item__blockquote-info d-flex flex-column position-relative justify-content-between"
+                >
+                  <blockquote>
+                    Learning Tapestry has provided us with strategic insight
+                    into technology that we couldn't find anywhere else.
+                  </blockquote>
+                  <div class="avatar-client-info-logo d-flex">
+                    <img
+                      class="section5__avatar"
+                      src="assets/images/avatar1.png"
+                      alt="client avatar"
+                    />
+                    <div class="client-info">
+                      <p>Norman Atkins</p>
+                      <p>
+                        Co-founder and<br />
+                        President
+                      </p>
+                      <p>Relay GSE</p>
+                    </div>
+                    <button
+                      type="button"
+                      class="mobile-modal-button nav-link btn nav-item--decoration"
+                      data-bs-toggle="modal"
+                      data-bs-target="#relayModal"
+                    >
+                      Read more
+                    </button>
+                    <img
+                      class="section5__client-logo position-absolute"
+                      src="assets/images/relay_new-logo.svg"
+                      alt="client logo"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="carousel-item__block d-flex">
+              <div class="carousel-item__texts">
+                <h2 class="heading2">
+                  We helped unbounded create digital-first curricula and
+                  collaboration tools
+                </h2>
+                <p class="text">
+                  UnboundEd is dedicated to empowering teachers by providing
+                  free, high-quality standards-aligned resources for the
+                  classroom, the opportunity for immersive training through
+                  their Standards Institute events, and the option of support
+                  through their website services.
+                </p>
+                <p class="text">
+                  Their online curriculum resources for grades PreK-12 have been
+                  reviewed and sequenced by nationally-recognized math and ELA
+                  experts. Their professional learning experiences and
+                  resources, help educators integrate standards-based knowledge
+                  and content into their daily practice.
+                </p>
+              </div>
+              <div class="carousel-item__info-card">
+                <img
+                  class="carousel-item__img-quotes"
+                  src="assets/svg/quotes.svg"
+                  alt="quotes"
+                />
+                <div
+                  class="carousel-item__blockquote-info d-flex flex-column position-relative justify-content-between"
+                >
+                  <blockquote>
+                    Learning Tapestry is a key partner for our work. They help
+                    us design, build, and support the technology that drives our
+                    work in content and curriculum.
+                  </blockquote>
+                  <div class="avatar-client-info-logo d-flex">
+                    <img
+                      class="section5__avatar"
+                      src="assets/images/avatar2.png"
+                      alt="client avatar"
+                    />
+                    <div class="client-info">
+                      <p>Laura Smith</p>
+                      <p>Managing Partner</p>
+                      <p>UnboundEd</p>
+                    </div>
+                    <button
+                      type="button"
+                      class="mobile-modal-button nav-link btn nav-item--decoration"
+                      data-bs-toggle="modal"
+                      data-bs-target="#unboundModal"
+                    >
+                      Read more
+                    </button>
+                    <img
+                      class="section5__client-logo position-absolute"
+                      src="assets/images/unbounded-logo.png"
+                      alt="client logo"
+                      style="height: 32px"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev opacity-100"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next opacity-100"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <footer class="text-center">
+      <nav class="footer-nav">
+        <ul class="d-flex justify-content-center">
+          <li><a class="nav-link" href="solutions.html">Solutions</a></li>
+          <li><a class="nav-link" href="about-us.html">about us</a></li>
+          <li>
+            <a class="nav-link" href="mailto:social@learningtapestry.com"
+              >contact</a
+            >
+          </li>
+          <li>
+            <a class="nav-link" href="privacy-policy.html">privacy policy</a>
+          </li>
+        </ul>
+      </nav>
+      <span class="footer__text">© Learning Tapestry, Inc. 2023</span>
+    </footer>
 
     <!-- Modal -->
-    <div class="modal fade" id="demo-form" tabindex="-1" role="dialog" aria-labelledby="demoForm">
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal__heading-form">
+            <h2 class="heading2">Contact Learning Tapestry</h2>
+            <h2 class="heading2-mobile">Contact us</h2>
+            <p class="subheading">We’d love to hear from you</p>
+            <form
+              action="https://formsubmit.co/social@learningtapestry.com"
+              id="contact_form"
+              name="contact_form"
+              method="post"
+            >
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="text"
+                    required
+                    maxlength="50"
+                    class="form-control"
+                    id="name"
+                    name="Name"
+                    placeholder="Name"
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col">
+                  <input
+                    type="email"
+                    required
+                    maxlength="50"
+                    class="form-control"
+                    id="email"
+                    name="Email"
+                    placeholder="Email"
+                  />
+                </div>
+              </div>
+              <div>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  name="Message"
+                  rows="1"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <button
+                type="button"
+                class="btn-close btn btn-secondary"
+                data-bs-dismiss="modal"
+              ></button>
+              <button type="submit" class="main-button text-uppercase">
+                send message
+                <img class="arrow-icon" src="assets/svg/arrow-right2.svg" />
+                <img class="arrow-icon" src="assets/svg/arrow-right1.svg" />
+              </button>
+            </form>
+            <div class="section6__links d-flex justify-content-between">
+              <!-- <div>
+              <img src="assets/svg/linkedin-icon.svg" alt="linkedin icon">
+              <a href="https://www.linkedin.com/company/learning-tapestry-inc-?original_referer=https%3A%2F%2Fwww.google.com%2F" target="_blank" style="display: inline; text-decoration: none; color: #031A6B; font-size: 1.5rem;">Follow us on LinkedIn</a>
+            </div> -->
+              <div>
+                <img src="assets/svg/mail-icon.svg" alt="mail icon" />
+                <a
+                  href="mailto:social@learningtapestry.com"
+                  style="
+                    display: inline;
+                    text-decoration: none;
+                    color: #031a6b;
+                    font-size: 1.5rem;
+                  "
+                  >or send us an email</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-        <div class="modal-dialog" role="document">
-
-            <div class="modal-content">
-
-                <h4 class="modal-title" id="demoForm">Demo request form</h4>
-                <p class="modal-text">Learn how to start your own educational product with Learning Tapestry. New idea? Connecting educational systems together? Problem we can solve? Request a free demo (or just leave us a message) and we will contact you.</p>
-
-                <form id="modal-contact-form">
-
-                    <div class="row">
-
-                        <div class="form-group col-sm-6">
-                            <label for="modal_name">Name</label>
-                            <input type="text" name="modal_name" id="modal_name" class="form-control" placeholder="John Dou">
-                        </div>
-
-                        <div class="form-group col-sm-6">
-                            <label for="modal_email">Email</label>
-                            <input type="email" name="modal_email" id="modal_email" class="form-control" placeholder="my@gmail.com">
-                        </div>
-
-                    </div><!-- /.row -->
-
-                    <div class="row">
-
-                        <div class="form-group col-sm-12">
-                            <label for="modal_message">Message</label>
-                            <textarea name="modal_message" id="modal_message" class="form-control" placeholder="Say hi to us…"></textarea>
-                            <div class="success-msg hidden">Your message has been sent!</div>
-                        </div>
-
-                    </div><!-- /.row -->
-
-                    <div class="text-center">
-
-                        <input type="hidden" name="caller" id="modal-caller" value="modal-caller">
-                        <button type="submit" class="btn btn-green">Send request</button>
-
-                    </div><!-- /.submit row -->
-
-                </form><!-- /#modal-contact-form -->
-
-            </div><!-- /.modal-content -->
-
-        </div><!-- /.modal-dialog -->
-
-    </div><!-- /.modal -->
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-
-    <!-- Get the appropriate image for Retina -->
-    <script src="assets/js/retina.min.js"></script>
-
-    <!-- Contact form validation -->
-    <script src="assets/js/jquery.validate.min.js"></script>
-
-    <script src="assets/js/script.js"></script>
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-74666222-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-</body>
+    <div
+      class="modal fade modal-mobile"
+      id="relayModal"
+      tabindex="-1"
+      aria-labelledby="relayModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal__heading-form">
+            <h2 class="heading2-mobile">
+              We helped Relay transition to sustainable learning infrastructure
+            </h2>
+            <p class="subheading text-start">
+              Relay wanted to transition from home-grown learning and finance
+              systems to more stable infrastructure. We helped them navigate
+              through this challenging process.
+            </p>
+            <p class="subheading text-start">
+              Along the way, we also helped them redesign their internal
+              technical organization. We also help them with internal R&D work,
+              including Doug Lemov's innovative Teach Like a Champion program
+              (tlaconline.com).
+            </p>
+            <button
+              type="button"
+              class="btn-close btn btn-secondary"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-mobile"
+      id="openSciEd"
+      tabindex="-1"
+      aria-labelledby="relayModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal__heading-form">
+            <h2 class="heading2-mobile">
+              We helped OpenSciEd build an open source curriculum authoring
+              environment
+            </h2>
+            <p class="subheading text-start">
+              It enables them to create and maintain all the
+              open educational resource (OER) curriculum products they
+              provide to schools.
+            </p>
+            <p class="subheading text-start">
+              We also provide integration support to connect their
+              curriculum products with their public website.
+            </p>
+            <button
+              type="button"
+              class="btn-close btn btn-secondary"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-mobile"
+      id="unboundModal"
+      tabindex="-1"
+      aria-labelledby="unboundModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal__heading-form">
+            <h2 class="heading2-mobile">
+              We helped Unbounded create digital-first curricula and
+              colaboration tools.
+            </h2>
+            <p class="subheading text-start">
+              UnboundEd is dedicated to empowering teachers by providing free,
+              high-quality standards-aligned resources for the classroom, the
+              opportunity for immersive training through their Standards
+              Institute events, and the option of support through their website
+              services.
+            </p>
+            <p class="subheading text-start">
+              Their online curriculum resources for grades PreK-12 have been
+              reviewed and sequenced by nationally-recognized math and ELA
+              experts. Their professional learning experiences and resources,
+              help educators integrate standards-based knowledge and content
+              into their daily practice.
+            </p>
+            <button
+              type="button"
+              class="btn-close btn btn-secondary"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="modal fade modal-mobile"
+      id="nogginModal"
+      tabindex="-1"
+      aria-labelledby="nogginModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content" style="height: auto">
+          <div class="modal__heading-form">
+            <h2 class="heading2-mobile">
+              We help Noggin with their entire technology platform.
+            </h2>
+            <p class="subheading text-start">
+              From technology strategy, software architecture, devops, mobile
+              development, web development, to analytics/learning data
+              infrastructure: we are either lead in each of these areas or
+              provide key technology support. Our partnership with Noggin has
+              grown over the years as we've demonstrated the ability to solve
+              hard problems, identify areas in need of attention, and think
+              through technical problems from the point of view of technology
+              architecture, product vision, business requirements, and marketing
+              goals.
+            </p>
+            <p class="subheading text-start">
+              We've helped Noggin migrate completely from a codebase that slowed
+              their innovation to one that is meeting their needs for creating
+              the kid-friendly, learning-rich experience they want for their
+              young users and their families. And we achieved all this on-time,
+              on-budget, and with a reliable and performant infrastructure.
+            </p>
+            <button
+              type="button"
+              class="btn-close btn btn-secondary"
+              data-bs-dismiss="modal"
+            ></button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/mobile-menu.js"></script>
+    <script src="assets/js/navbar.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
