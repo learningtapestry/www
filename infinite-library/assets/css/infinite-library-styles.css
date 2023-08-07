@@ -25,7 +25,6 @@ li {
 p {
   font-size: 13pt;
 }
-
 h1 {
   padding-top: 10pt;
   line-height: 1.5;
@@ -112,4 +111,136 @@ ol {
 }
 .site-main {
   background-color: #eef7f7;
+}
+/* ----------------------------------- */
+/* ------ support url classes -------- */
+
+.book-page-example {
+  max-width: 336px;
+}
+.centered-title {
+  text-align: center;
+  padding: 1.3rem;
+}
+.dark-bg {
+  color: #fff;
+}
+.mockup-phone {
+  max-width: 344px;
+  padding-top: 1.5rem;
+}
+.poppy-img {
+  max-width: 320px;
+  margin: auto;
+  display: block;
+}
+.store-btn {
+  width: 200px;
+}
+.store-btn-div {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.support-container {
+  margin: auto;
+  padding: 2rem;
+}
+.support-footer {
+  font-size: 0.88rem;
+  padding-top: 1rem;
+}
+.support-h1 {
+  font-size: 2.5rem;
+  line-height: 3.125rem;
+  text-align: center;
+}
+.support-h2 {
+  font-size: 2.25rem;
+  line-height: 2.8rem;
+  text-align: center;
+}
+.support-p {
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+}
+.text-div {
+  padding: 1rem;
+}
+.row.container {
+  margin: auto;
+}
+.row.copyright {
+  padding-top: 1.2rem;
+  font-size: 0.88rem;
+}
+
+.second-section,
+.fifth-section {
+  background-color: #3a7d73;
+  padding-bottom: 2rem;
+}
+
+.third-section,
+.sixth-section {
+  background-color: #eef7f7;
+}
+
+/* -------- Large screens -------- */
+
+@media (min-width: 1024px) {
+  .book-page-example {
+    max-width: 90%;
+  }
+  .h2-left {
+    text-align: left;
+  }
+
+  .store-btn-div {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .support-h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    text-align: left;
+  }
+
+  .support-h2 {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+  .support-p {
+    font-size: 1.5rem;
+    line-height: 3rem;
+  }
+  .support-footer {
+    text-align: left;
+  }
+  .mockup-phone {
+    max-width: 100%;
+  }
+  .row.container {
+    padding: 2rem;
+  }
+  .store-btn {
+    height: 64px;
+    width: auto;
+    margin: 0;
+  }
+  .text-div {
+    padding: 2rem;
+  }
+  .centered-title {
+    padding: 2rem;
+  }
+  .poppy-img {
+    max-width: 520px;
+  }
+
+  .second-section,
+  .fifth-section {
+    padding-bottom: 4rem;
+  }
 }
