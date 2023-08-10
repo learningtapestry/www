@@ -1,0 +1,125 @@
+.navbar__container::after {
+  content: '';
+  background-image: url('../svg/pentagon.svg');
+  background-repeat: no-repeat;
+  background-size: 86%;
+  position: absolute;
+  width: 805px;
+  height: 805px;
+  left: -84px;
+  top: -473px;
+  transform: rotate(15deg);
+  z-index: 0;
+}
+
+.privacy-heading-subheading {
+  padding-left: 100px;
+}
+
+.section1, header, footer {
+  background: #EEF0F6;
+}
+
+footer {
+  padding: 76px 0 27px;
+}
+
+.section1 .subheading {
+  margin-bottom: 76px;
+}
+
+.privacy-policy-block {
+  max-width: 1136px;
+  background: var(--white);
+  box-shadow: 0px 15px 80px -40px rgba(38, 57, 89, 0.25);
+  border-radius: 8px;
+  padding: 50px 96px 75px;
+  margin: 0 auto;
+}
+
+.privacy-policy-block ul {
+  list-style-type: none;
+}
+
+.privacy-policy-block .heading2 {
+  color: var(--gray-2);
+  line-height: 38px;
+  white-space: nowrap;
+  margin-bottom: 0;
+}
+
+.privacy-policy-block .heading3 {
+  color: var(--gray-2);
+  font-size: 2.2rem;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.privacy-policy-block .heading4 {
+  color: var(--gray-2);
+  font-size: 2rem;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.privacy-policy-block p {
+  font-size: 1.6rem;
+  line-height: 30px;
+  color: var(--gray-2);
+  margin-bottom: 30px;
+}
+
+.privacy-policy-back-link {
+  color: var(--blue);
+  font-size: 1.8rem;
+  background: transparent;
+  border: none;
+}
+
+.privacy-policy-back-link img {
+  transform: rotate(270deg);
+  vertical-align: unset;
+  margin-right: 5px;
+}
+
+
+
+
+@media(max-width: 1439px) {
+  .section1 {
+    padding: 34px 60px 0;
+  }
+
+  .privacy-policy-block .heading2 {
+    white-space: unset;
+  }
+}
+
+@media(max-width: 1225px) {
+  .privacy-heading-subheading {
+    padding-left: 0;
+  }
+}
+
+@media(max-width: 737px) {
+  .section1 {
+    padding: 34px 15px 0;
+  }
+
+  .privacy-policy-block {
+    padding: 32px 36px 75px;
+  }
+
+  .privacy-policy-block .heading2 {
+    text-align-last: left;
+    margin-bottom: 10px;
+  }
+
+  .section1 .subheading {
+    margin-bottom: 25px;
+  }
+
+  footer {
+    padding-top: 35px;
+  }
+}
