@@ -71,6 +71,16 @@ ol {
   font-family: "Lexend", sans-serif;
   max-width: fit-content !important;
 }
+.back-to-top {
+  color: #3a7d73;
+  background: transparent;
+  border: none;
+}
+.back-to-top img {
+  vertical-align: unset;
+  margin-right: 5px;
+}
+
 .company-address {
   margin-left: 40pt;
 }
