@@ -1,6 +1,6 @@
 .navbar__container::after {
-  content: '';
-  background-image: url('../svg/circle.svg');
+  content: "";
+  background-image: url("../svg/circle.svg");
   background-repeat: no-repeat;
   position: absolute;
   width: 805px;
@@ -15,7 +15,7 @@
 }
 
 footer {
-  background: #EEF1F5;
+  background: #eef1f5;
 }
 
 .section1 {
@@ -24,7 +24,7 @@ footer {
 }
 
 .section2 {
-  background: linear-gradient(180deg, rgba(238, 241, 245, 0) 0%, #EEF1F5 100%);
+  background: linear-gradient(180deg, rgba(238, 241, 245, 0) 0%, #eef1f5 100%);
   padding-bottom: 131px;
   padding-top: 71px;
 }
@@ -45,7 +45,7 @@ footer {
   font-weight: 400;
   color: var(--dark-cyan-blue);
 
-  @media (max-width:737px) {
+  @media (max-width: 737px) {
     margin-bottom: 19px;
     font-size: 1.6rem;
   }
@@ -102,7 +102,7 @@ footer {
 .section2-technology,
 .section2-system {
   min-height: 450px;
-  background: url('../svg/orange-blue-frame1.svg');
+  background: url("../svg/orange-blue-frame1.svg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -110,7 +110,7 @@ footer {
 
 .section2-customize {
   min-height: 520px;
-  background: url('../svg/orange-blue-frame2.svg');
+  background: url("../svg/orange-blue-frame2.svg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ footer {
 
 .section2-tool {
   min-height: 585px;
-  background: url('../svg/orange-blue-frame3.svg');
+  background: url("../svg/orange-blue-frame3.svg");
   background-position: center;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -158,10 +158,7 @@ footer {
   text-decoration: none;
 }
 
-
-
-
-@media(max-width: 1280px) {
+@media (max-width: 1280px) {
   .section2__rectangle {
     background: none;
     width: 100%;
@@ -173,11 +170,10 @@ footer {
     border-radius: 16px;
     min-height: auto;
     padding: 40px;
-
   }
 }
 
-@media(min-width: 1110px) {
+@media (min-width: 1110px) {
   .section1 .oval {
     width: 600px;
   }
@@ -192,15 +188,14 @@ footer {
   }
 }
 
-@media(min-width: 1280px) {
-
+@media (min-width: 1280px) {
   .section1 .oval2,
   .section1 .oval4 {
     margin-left: 110px;
   }
 }
 
-@media(max-width: 1110px) {
+@media (max-width: 1110px) {
   .section1 .wrapper {
     flex-direction: column;
     gap: 20px;
@@ -216,8 +211,7 @@ footer {
   }
 }
 
-
-@media(max-width: 737px) {
+@media (max-width: 737px) {
   .section1 {
     padding: 76px 15px 10px 15px;
   }
@@ -263,7 +257,7 @@ footer {
 
   .section2-product {
     height: 750px;
-    background: url('../svg/orange-blue-frame-mobile1.svg');
+    background: url("../svg/orange-blue-frame-mobile1.svg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -271,7 +265,7 @@ footer {
 
   .section2-technology {
     height: 700px;
-    background: url('../svg/orange-blue-frame-mobile5.svg');
+    background: url("../svg/orange-blue-frame-mobile5.svg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -279,7 +273,7 @@ footer {
 
   .section2-system {
     height: 640px;
-    background: url('../svg/orange-blue-frame-mobile6.svg');
+    background: url("../svg/orange-blue-frame-mobile6.svg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -287,7 +281,7 @@ footer {
 
   .section2-customize {
     height: 910px;
-    background: url('../svg/orange-blue-frame-mobile4.svg');
+    background: url("../svg/orange-blue-frame-mobile4.svg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -295,7 +289,7 @@ footer {
 
   .section2-tool {
     height: 1130px;
-    background: url('../svg/orange-blue-frame-mobile3.svg');
+    background: url("../svg/orange-blue-frame-mobile3.svg");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -320,10 +314,23 @@ footer {
   }
 }
 
-.row>* {
+.row > * {
   margin-top: 20px !important;
 }
 
-.row>p>span {
+.row > p > span {
   margin-right: 10px;
+}
+
+.list {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+  line-height: 3.2rem;
+}
+@media (min-width: 768px) {
+  .list {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.8rem;
+    line-height: 4rem;
+  }
 }
