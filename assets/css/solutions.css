@@ -42,8 +42,6 @@ footer {
 }
 
 .section1 .subheading {
-  color: var(--dark-cyan-blue);
-
   @media (max-width: 737px) {
     margin-bottom: 19px;
     font-size: 1.6rem;
