@@ -124,7 +124,9 @@ ol {
 }
 /* ----------------------------------- */
 /* ------ support url classes -------- */
-
+.amazon-app-store-btn {
+  padding: 12px 6px 10px;
+}
 .book-page-example {
   max-width: 336px;
 }
@@ -235,7 +237,7 @@ ol {
     padding: 2rem;
   }
   .store-btn {
-    height: 64px;
+    max-height: 64px;
     width: auto;
     margin: 0;
   }
