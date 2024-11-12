@@ -1153,3 +1153,9 @@ footer .footer__text {
     width: 60%;
   }
 }
+.carousel-inner {
+  @media (min-width: 2000px) {
+    margin: auto;
+    max-width: 80%;
+  }
+}
