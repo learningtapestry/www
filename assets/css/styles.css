@@ -765,6 +765,7 @@ footer .footer__text {
   visibility: hidden;
 }
 
+/* media queries */
 @media (max-width: 1190px) {
   .section1 .image,
   .section3 picture,
