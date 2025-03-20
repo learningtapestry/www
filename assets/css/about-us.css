@@ -167,15 +167,14 @@
 
   .section3 .heading2 {
     width: 250px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 30px auto;
     line-height: 34px;
   }
 
   .section3 .heading3 {
     line-height: 24px;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 500;
   }
 
   .section3__rectangle {
