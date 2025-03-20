@@ -212,6 +212,10 @@ footer {
 }
 
 @media (max-width: 737px) {
+  .col {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
   .section1 {
     padding: 76px 15px 10px 15px;
   }
@@ -264,7 +268,7 @@ footer {
 
   .section2__rectangle {
     width: 350px;
-    padding: 30px 15px 0px;
+    padding: 24px 15px;
     margin: 0 auto 67px;
   }
 
