@@ -198,8 +198,12 @@
 
 .info-block img {
   width: 150px;
-  height: 150px;
+  border-radius: 100%;
 }
+.photo-border {
+  border: 3px solid var(--blue-hover);
+}
+
 .list {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
