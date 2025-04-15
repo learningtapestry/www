@@ -17,7 +17,8 @@
 }
 
 .section3 {
-  padding: 101px 159px 42px;
+  /* padding: 101px 159px 42px; */
+  padding: 48px;
 }
 
 .section2 .info-blocks-group {
@@ -101,8 +102,7 @@
 }
 
 .section3__rectangle .heading3 {
-  font-size: 2rem;
-  text-align: center;
+  font-size: 1.8rem;
   margin-bottom: 24px;
   line-height: 32px;
 }
@@ -118,11 +118,11 @@
 
 @media (max-width: 1047px) {
   .section2 {
-    padding: 72px 40px 113px;
+    padding: 40px 80px;
   }
 
   .section3 {
-    padding: 101px 9px 42px;
+    padding: 48px;
   }
 
   .section2 .info-blocks-group {
@@ -141,12 +141,17 @@
   }
 
   .section3__rectangle {
-    background: none;
+    background: var(--white);
     width: 100%;
-    padding: 0;
-    margin-bottom: 0;
+    padding: 2.5rem 2rem;
     height: auto;
-    padding: 30px;
+    border-top: 6px solid var(--blue);
+    border-left: 6px solid var(--blue);
+    border-right: 6px solid var(--orange);
+    border-bottom: 6px solid var(--orange);
+    border-radius: 1.5rem;
+    box-shadow: 0px 15px 80px -40px rgba(38, 57, 89, 0.4);
+    margin: 0 auto 1rem;
   }
 }
 
@@ -155,31 +160,25 @@
     text-align: left;
   }
 
-  .section2 {
+  .section2,
+  .section3 {
     padding: 5px 15px 0;
   }
 
   .section3 .heading2 {
     width: 250px;
-    margin: 0 auto;
-    margin-bottom: 30px;
+    margin: 30px auto;
     line-height: 34px;
   }
 
   .section3 .heading3 {
-    line-height: 28px;
-    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 500;
   }
 
   .section3__rectangle {
-    width: 350px;
-    height: 1000px;
-    padding: 40px 30px 30px;
-    margin: 0 auto 5px;
-    background: url("../svg/orange-blue-frame-mobile2.svg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
+    padding: 1.5rem;
   }
 
   .section3 .image {
@@ -207,7 +206,7 @@
 .list {
   font-family: "Poppins", sans-serif;
   font-size: 1.6rem;
-  line-height: 3.2rem;
+  line-height: 2.8rem;
 }
 @media (min-width: 768px) {
   .list {

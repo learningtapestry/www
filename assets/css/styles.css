@@ -765,6 +765,7 @@ footer .footer__text {
   visibility: hidden;
 }
 
+/* media queries */
 @media (max-width: 1190px) {
   .section1 .image,
   .section3 picture,
@@ -895,8 +896,8 @@ footer .footer__text {
     width: 248px;
     height: 192px;
     position: absolute;
-    right: -8px;
-    top: -8px;
+    right: -20px;
+    top: -20px;
     background-image: url(../svg/triangle-mobile.svg);
     background-repeat: no-repeat;
   }
@@ -906,7 +907,7 @@ footer .footer__text {
   }
 
   .logo {
-    width: 221px;
+    width: 216px;
   }
 
   .header .navbar__title {
@@ -1157,5 +1158,19 @@ footer .footer__text {
   @media (min-width: 2000px) {
     margin: auto;
     max-width: 80%;
+  }
+}
+
+@media (max-width: 390px) {
+  .section5 .carousel-item__info-card {
+    min-height: 570px;
+    max-height: 580px;
+  }
+  .section5 blockquote {
+    line-height: 2.25rem;
+  }
+  .section5 .section5__client-logo-large-quote {
+    right: 0px;
+    bottom: 0px;
   }
 }

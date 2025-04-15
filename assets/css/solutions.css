@@ -85,14 +85,14 @@ footer {
 }
 
 .section2 .heading2 {
-  margin-bottom: 46px;
+  margin-bottom: 40px;
 }
 
 .section2__rectangle {
   max-width: 100%;
   width: 925px;
   padding: 42px;
-  margin: 0 auto 160px;
+  margin: 0 auto 120px;
 }
 
 .section2-product,
@@ -132,15 +132,15 @@ footer {
 
 .section2__rectangle .heading3 {
   font-size: 20px;
-  text-align: center;
   line-height: 32px;
   margin: 0 auto 42px;
+  width: 95%;
+  margin-bottom: 40px;
 }
 
 .section2__rectangle-item .text {
   line-height: 28px;
   font-size: 16px;
-  text-align: justify;
 }
 
 .github-link {
@@ -162,8 +162,12 @@ footer {
     margin-bottom: 100px;
 
     background: var(--white);
+    border-top: 6px solid var(--blue);
+    border-left: 6px solid var(--blue);
+    border-right: 6px solid var(--orange);
+    border-bottom: 6px solid var(--orange);
+    border-radius: 1.5rem;
     box-shadow: 0px 15px 80px -40px rgba(38, 57, 89, 0.4);
-    border-radius: 16px;
     min-height: auto;
     padding: 40px;
   }
@@ -208,6 +212,10 @@ footer {
 }
 
 @media (max-width: 737px) {
+  .col {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
   .section1 {
     padding: 76px 15px 10px 15px;
   }
@@ -232,11 +240,24 @@ footer {
     padding-bottom: 100px;
   }
 
-  .section2 .heading3 {
-    line-height: 28px;
-    font-weight: 400;
+  .section2__rectangle .heading3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
   }
+  /* .section2__rectangle .heading3 {
+  font-size: 20px;
+  line-height: 32px;
+  margin: 0 auto 42px;
+  width: 95%;
+  margin-bottom: 40px;
+} */
 
+  .section2 .image {
+    width: 24px;
+    vertical-align: text-top;
+  }
   .section2 .desktop {
     display: none;
   }
@@ -247,48 +268,8 @@ footer {
 
   .section2__rectangle {
     width: 350px;
-    padding: 30px 15px 0px;
+    padding: 24px 15px;
     margin: 0 auto 67px;
-  }
-
-  .section2-product {
-    height: 750px;
-    background: url("../svg/orange-blue-frame-mobile1.svg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .section2-technology {
-    height: 700px;
-    background: url("../svg/orange-blue-frame-mobile5.svg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .section2-system {
-    height: 640px;
-    background: url("../svg/orange-blue-frame-mobile6.svg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .section2-customize {
-    height: 910px;
-    background: url("../svg/orange-blue-frame-mobile4.svg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .section2-tool {
-    height: 1130px;
-    background: url("../svg/orange-blue-frame-mobile3.svg");
-    background-position: center;
-    background-size: 100%;
-    background-repeat: no-repeat;
   }
 
   .section2__rectangle .col {
@@ -301,6 +282,9 @@ footer {
 
   .github-link__text {
     text-align: center;
+  }
+  .section2__rectangle-item {
+    gap: 10px;
   }
 }
 
